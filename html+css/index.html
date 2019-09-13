@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/layui.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css" />
+    <link rel="shortcut icon" href="http://www.baidu.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <ul class="header">
+        <li><a href="https://news.baidu.com">新闻</a></li>
+        <li><a href="https://news.baidu.com">hao123</a></li>
+        <li><a href="https://news.baidu.com">地图</a></li>
+        <li><a href="https://news.baidu.com">视频</a></li>
+        <li><a href="https://news.baidu.com">贴吧</a></li>
+        <li><a href="https://news.baidu.com">学术</a></li>
+        <li><a href="https://news.baidu.com">登录</a></li>
+        <li class="menu"><a href="https://news.baidu.com">设置</a>
+            <div class="menu_l">
+                <div class="j"></div>
+                <a href="">搜索设置</a>
+                <a href="">高级搜索</a>
+                <a href="">关闭预测</a>
+                <a href="">隐私设置</a>
+            </div>
+        </li>
+        <li class="menu_list"><span>更多产品</span>
+            <div class="list">
+                <ul>
+                    <li class="menu_list"><span>更多产品</span></li>
+                    <li><a href=""><span
+                                style="background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/nuomi_7f5cd35.png) no-repeat;background-size:cover"></span></br>糯米</a>
+                    </li>
+                    <li><a href=""><span
+                                style="background:url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/qqjt_9809ca8.png) no-repeat;background-size:cover"></span></br>音乐</a>
+                    </li>
+                    <li><a href=""><span
+                                style="background:url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/image_55b5909.png) no-repeat;background-size:cover"></span></br>图片</a>
+                    </li>
+                    <li><a href=""><span
+                                style="background:url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/zhidao_cbf2aff.png) no-repeat;background-size:cover"></span></br>知道</a>
+                    </li>
+                    <li><a href=""><span
+                                style="background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/wenku_aaf198d.png) no-repeat;background-size: cover"></span></br>文库</a>
+                    </li>
+                    <li><a href=""><span
+                                style="background:url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/fengyunbang_1986a40.png) no-repeat;background-size:cover"></span></br>风云榜</a>
+                    </li>
+                    <li style="padding:0;font-size: 12px;border: 0;margin-top: 10px;"><a href="">全部产品></a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <div class="clear"></div>
+    <div class="search">
+        <img src="https://www.baidu.com/img/bd_logo1.png?where=super" alt="">
+        <form action="">
+            <input type="text" name="">
+            <i class="layui-icon">&#xe660;</i>
+            <input type="button" value="百度一下">
+        </form>
+        <div class="clear"></div>
+    </div>
+    <div class="bottom">
+        <img src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_09b6296.png" alt="">
+        <span style="font-weight: bold;columns: #000000;">下载百度</span>
+        <br>
+        <span>
+            <a href="">把百度设为首页</a>
+            <a href="">关于百度</a>
+            <a href="">About Baidu</a>
+            <a href="">百度推广</a>
+        </span>
+        <span>
+            ©2018 Baidu <a href="">使用百度前必读 意见反馈</a> 京ICP证030173号<img src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_441e82f.png"> <a
+                href="">京公网安备11000002000001号 </a> <img src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_441e82f.png">
+        </span>
+    </div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+    $(function(params) {
+            $('li').hover(function() {
+                    $(this).find('.list').css('display', 'block')
+                },
+                function() {
+                    $(this).find('.list').css('display', 'none')
+                })
+        }
+
+    )
+</script>
+
+</html>
